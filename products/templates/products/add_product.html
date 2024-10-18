@@ -1,0 +1,10 @@
+<h1> Agregar un producto</h1>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ea officia animi esse, quibusdam eum non obcaecati et ab nemo. Asperiores, placeat molestias id esse ratione itaque blanditiis iusto harum.
+</p>
+<form action="{% url "add_product" %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Agregar</button>
+</form>
+
