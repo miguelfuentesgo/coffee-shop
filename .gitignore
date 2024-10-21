@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 #Custom
 
-miguel_venv
+miguel_venv/
 ### Django ###
 *.log
 *.pot
